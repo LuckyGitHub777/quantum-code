@@ -1,2 +1,2 @@
 # quantum-code
-Quantum code snippets
+Diving into quantum code.
