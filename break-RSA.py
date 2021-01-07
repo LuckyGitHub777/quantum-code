@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import sys
-
-# Breaking RSA Encryption using Qiskit Aqua library to run Shor's algorithm
+# Breaking RSA Encryption using Qiskit Aqua library to run Shor's algorithm (@amarchenkova tutorial)
 import qiskit
 
 # Import Shor
