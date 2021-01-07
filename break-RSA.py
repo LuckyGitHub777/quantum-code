@@ -7,10 +7,10 @@ import qiskit
 from qiskit.aqua.algorithms import Shor
 
 # Import QuantumInstance
-from qiskit.aqua import QuantimInstance
+from qiskit.aqua import QuantumInstance
 
 # import Aer; a quantum  simulator 
-from qiskit.aqua import QuantimInstance
+from qiskit.aqua import QuantumInstance
 
 # Set key as the number we want to factor
 key = 21 
