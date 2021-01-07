@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import sys
-import qiskit
 
 # Breaking RSA Encryption using Qiskit Aqua library to run Shor's algorithm
+import qiskit
+
 # Import Shor
 from qiskit.aqua.algorithms import Shor
 
@@ -22,7 +23,6 @@ base = 2
 # You can replace the 'qasm_simulator' with an actual quantum chip
 backend = Aer.get_backend('qasm_simulator')
 
-
 # Set up a Quantum Instance with a backend
 # Set up the number of shots, or runs, of the algorithm
 qi = QuantumInstance(backend=backend, shots=1024)
@@ -35,6 +35,3 @@ results = shors.run()
 
 # Print the results
 print(results['factors'])
-
-if __name__ == '__main__':
-    main()
